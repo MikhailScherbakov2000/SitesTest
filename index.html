@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houses_Test_MST</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prata&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container header_container">
+        <div class="header_elements">
+            <a href="#" class="logo">Houses</a>
+            <div class="header_navigation">
+                <nav>
+                    <ul>
+                        <li><a href="#main_text_wrapper">About us</a></li>
+                        <li><a href="#houses_info_wrapper">information</a></li>
+                        <li><a href="#form_block">Form</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main_text_wrapper" id="main_text_wrapper">
+            <div class="big_main_text">
+                The best houses
+            </div>
+            <div class="big_main_text_two">
+                Our advantages:
+            </div>
+            <div class="pluses_text">
+                <div class="plus_one">
+                    <img src="img/plus.png" alt="plus">
+                    Up to <h1>17%</h1> on mortgage
+                </div>
+                <div class="plus_two">
+                    <img src="img/plus.png" alt="plus">
+                    Entering the top <h1>1</h1>cyanogen
+                </div>
+                <div class="plus_three">
+                    <img src="img/plus.png" alt="plus">
+                    Discounts up to <h1>20%</h1>
+                </div>
+            </div>
+        </div>
+        <button id="myBtn">Application</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Hi, fill out the form</h2>
+                </div>
+                <div class="modal-body">
+                    <form action="submit" method="post">
+                        <div class="form_name">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form_email">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form_button">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="house_main">
+            <img src="img/house_main.jpg" alt="house_main">
+        </div>
+    </div>
+    <div class="houses_wrapper">
+        <div class="house_two">
+            <img src="img/house_one.jpg" alt="house_one">
+        </div>
+        <div class="houses_info_wrapper" id="houses_info_wrapper">
+            <div class="houses_info">
+                <div class="houses_info_one">
+                    <img src="/img/mini-logo.png" alt="mini-logo">
+                    Preparing for the search: Before you start looking at houses, determine your budget.
+                </div>
+                <div class="houses_info_two">
+                    <img src="/img/mini-logo.png" alt="mini-logo">
+                    Viewing and rating: When viewing, pay attention not only to the exterior of the house.
+                </div>
+                <div class="houses_info_three">
+                    <img src="/img/mini-logo.png" alt="mini-logo">
+                    The legal side: Buying a house is a serious deal.
+                </div>
+                <div class="houses_info_four">
+                    <img src="/img/mini-logo.png" alt="mini-logo">
+                    Financial aspects: In addition to the cost of the house itself.
+                </div>
+                <button id="myBtnTwo">Application</button>
+                <div id="myModalTwo" class="modalTwo">
+                    <div class="modal-content-two">
+                        <div class="modal-header-two">
+                            <span class="closeTwo">&times;</span>
+                            <h3>Hi, fill out the form</h3>
+                        </div>
+                        <div class="modal-body-two">
+                            <form action="submit" method="post">
+                                <div class="form_name_two">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form_email_two">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form_button_two">
+                                    <button type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="house_three">
+            <img src="/img/house_two.jpg" alt="house_two">
+        </div>
+    </div>
+    <div class="form_block" id="form_block">
+        <div class="form_wrapper container">
+            <div class="form_rectangle">
+                <div class="rectangle_wrapper">
+                    <div class="rectangle_text">
+                        Fill out the application
+                    </div>
+                    <div class="rectangle_forms">
+                        <form action="submit" method="post">
+                            <div class="rectangle_name">
+                                <input type="text" required="required" placeholder="Name">
+                            </div>
+                            <div class="rectangle_email">
+                                <input type="email" required="required" placeholder="E-mail">
+                            </div>
+                            <div class="rectangle_submit">
+                                <input type="submit" value="">
+                            </div>
+                    </div>
+                    <div class="check_box">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <div class="privacy_policy">
+                            <a target="a_blank" class="privacy">
+                                i accept Privacy policy
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rectangle_button">
+                        <button type="submit">Submit Form</button>
+                    </div>
+                </div>
+                </form>
+                <div class="rectangle_img">
+                    <img src="/img/form_img.png" alt="form_img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_wrapper">
+            <div class="stick_wrapper">
+            </div>
+            <nav>
+                <ul>
+                    <div class="footer_navigation container">
+                        <div class="navigation_wrapper">
+                            <li><a href="#main_text_wrapper">About us</a></li>
+                            <li><a href="#houses_info_wrapper">information</a></li>
+                            <li><a href="#form_block">Form</a></li>
+                        </div>
+                    </div>
+                    <div class="stick_wrapper_two">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer_wrapper_two container">
+            <div class="logo_bottom">
+                <a href="#" class="logo">Houses</a>
+            </div>
+            <div class="footer_social">
+                <div class="instagram">
+                    <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.svg" alt="instagram">
+                    </a>
+                </div>
+                <div class="tiktok">
+                    <a href="http://www.tiktok.com" target="_blank"><img src="img/tiktok.svg" alt="tiktok"></a>
+                </div>
+                <div class="linkedin">
+                    <a href="http://www.linkedin.com" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a>
+                </div>
+                <div class="facebook">
+                    <a href="http://www.facebook.com" target="_blank"><img src="img/facebook.svg" alt="facebook"></a>
+                </div>
+                <div class="telegram">
+                    <a href="http://www.telegram.org" target="_blank"><img src="img/telegram.svg" alt="telegram"></a>
+                </div>
+                <div class="youtube">
+                    <a href="http://www.youtube.com" target="_blank"><img src="img/youtube.svg" alt="youtube"></a>
+                </div>
+            </div>
+            <button id="myBtnThree">Application</button>
+            <div id="myModalThree" class="modalThree">
+                <div class="modal-content-three">
+                    <div class="modal-header-three">
+                        <span class="closeThree">&times;</span>
+                        <h3>Hi, fill out the form</h3>
+                    </div>
+                    <div class="modal-body-three">
+                        <form action="submit" method="post">
+                            <div class="form_name_three">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form_email_three">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form_button_three">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fotter_wrapper_three container">
+            <div class="copyright">
+                © 2025 MST
+            </div>
+            <div class="footer_privacy_policy">
+                Privacy policy
+            </div>
+            <div class="footer_terms_of_use">
+                Terms of Use
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
